@@ -1,5 +1,6 @@
-useradd -rm -d /home/${USER_NAME} -s /bin/bash -g root -G sudo -u 1000 ${USER_NAME} 
-mkdir /home/${USER_NAME}/.ssh
-touch /home/${USER_NAME}/.ssh/authorized_keys
-echo ${YourPubKey} > /home/${USER_NAME}/.ssh/authorized_keys
+useradd -rm -d /home/${YourName} -s /bin/bash -g root -G sudo -u 1000 ${YourName} 
+mkdir /home/${YourName}/.ssh
+touch /home/${YourName}/.ssh/authorized_keys
+echo ${YourPubKey} > /home/${YourName}/.ssh/authorized_keys
+chown -R Martin /home/Martin
 /usr/sbin/sshd -D
