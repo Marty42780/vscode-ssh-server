@@ -1,5 +1,7 @@
 # VSCode-Server-Docker
 
+[![docker_build](https://github.com/Marty42780/vscode-ssh-server/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/Marty42780/vscode-ssh-server/actions/workflows/docker.yml)
+
 Intégration de [Visual Studio Code Server](https://code.visualstudio.com/docs/remote/vscode-server) et de [Ubuntu](https://hub.docker.com/_/ubuntu) dans un container Docker prêt a l'usage pour du développement à distance via ssh.
 
 - La connection se fait en root avec une clé SSH.
